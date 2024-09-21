@@ -1,0 +1,33 @@
+uuid: 5e3c7851-e5c4-4dc7-885a-fdda4258473f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drag_and_drop_page.body
+    - node.type.drag_and_drop_page
+  module:
+    - dxpr_builder
+    - user
+  enforced:
+    module:
+      - dxpr_builder_page
+_core:
+  default_config_hash: AUiUvPG47ychPEFV1WvMfjhUZgAKbOpv1OVUtE9jPUY
+id: node.drag_and_drop_page.default
+targetEntityType: node
+bundle: drag_and_drop_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: dxpr_builder_text
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_dth_hide_regions: true
+  field_dth_main_content_width: true
+  field_dth_page_layout: true
+  field_dth_page_title_backgrou: true
+  links: true

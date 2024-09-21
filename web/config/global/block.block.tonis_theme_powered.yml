@@ -1,0 +1,22 @@
+uuid: 0b967b22-1092-4f40-a041-6a5dcc891d07
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tonis_theme
+_core:
+  default_config_hash: ZWo7RK3znM_xBRLwi9PsZnM6PJA3G9Mx6zFC2KwCe1M
+id: tonis_theme_powered
+theme: tonis_theme
+region: footer
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

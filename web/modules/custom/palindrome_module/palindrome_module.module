@@ -1,0 +1,43 @@
+<?php
+
+use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implerments hook_form_alter().
+ */
+
+function palindrome_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
+{
+
+    if ($form_id = "palindrome-form") {
+        $form["#title"] = t("Palindrome checker");
+        $form["name"]["#title"] = t("Is it a palindrome?");
+        $form["name"]["#attributes"]["placeholder"] = t("Enter your word here");
+    }
+}
+
+/**
+ * Implements hook_preprocess_page()
+ */
+
+function palindrome_module_preprocess_page(&$variable)
+{
+    $variable["palindrome_module_variable"] = "A module to check if a word is a palindrome";
+}
+
+/**
+ * Implements hook_help()
+ */
+function palindrome_module_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        case "help.page.palindrome_module":
+            $output = "";
+            $output = "<p>" . t("How to use:") . "</p>";
+            $output = "<p>" . t("Write your word in the input field and submit. The machine will now tell you if your word is a palindrome or not") . "</p>";
+            return $output;
+
+        default:
+    }
+}

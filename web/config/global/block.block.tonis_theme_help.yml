@@ -1,0 +1,22 @@
+uuid: a373a559-3bd7-41b6-a9ff-2ec70cdac80f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tonis_theme
+_core:
+  default_config_hash: nTb1lHIIESRE7bhOAd84EEahtSReW5L37MVLF5KyVrg
+id: tonis_theme_help
+theme: tonis_theme
+region: footer
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

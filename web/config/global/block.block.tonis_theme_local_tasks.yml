@@ -1,0 +1,22 @@
+uuid: d1979b4c-1763-42f0-9f80-52c5f365e10e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tonis_theme
+_core:
+  default_config_hash: u2RKeim3-akpSCGTmGM1DZE9WwDy25PG3yGXOgNCFZk
+id: tonis_theme_local_tasks
+theme: tonis_theme
+region: footer
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

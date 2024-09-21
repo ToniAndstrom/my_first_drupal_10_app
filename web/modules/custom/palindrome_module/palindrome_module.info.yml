@@ -1,0 +1,4 @@
+name: Palindrome module
+description: A module to check if a word is a palindrome 
+type: module
+core_version_requirement: ^10 || ^11

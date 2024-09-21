@@ -1,0 +1,22 @@
+uuid: d3e72636-e913-436c-bac6-585f4f936f31
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tonis_theme
+_core:
+  default_config_hash: EAPpof-OFVhvV9Xi5WsRB827n9EceoSDSXG8EFSjhGM
+id: tonis_theme_messages
+theme: tonis_theme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,15 @@
+palindrome_module.form: 
+  path: "/palindrome-form"
+  defaults:
+    _form: '\Drupal\palindrome_module\Form\PalindromeForm'
+    _title: "Palindrome module"
+  requirements:
+    _permission: "access content"
+
+palindrome_module.result:
+  path: "/palindrome_result/{name}"
+  defaults:
+    _controller: '\Drupal\palindrome_module\Controller\PalindromeController::result'
+    _title: "The results are in"
+  requirements:
+    _permission: "access content"

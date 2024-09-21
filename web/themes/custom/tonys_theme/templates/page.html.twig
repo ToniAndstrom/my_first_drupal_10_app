@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header class="header">
+			{{ page.header }}
+      <br>
+			<div class="container">
+				<video autoplay loop muted>
+					<source src="https://drive.bc.fi/portal/s/13761664161707124633.mp4" type="video/mp4"/>
+				</video>
+				<div class="textbox">
+					<h1>COME <br> AND <br> PLAY</h1>
+				</div>
+			</div>
+			<nav class="menu">
+				{{ page.menu }}
+			</nav>
+		</header>
+		<main class="main">
+			<div class="content">
+				{{ page.content }}
+			</div>
+			{% if page.sidebar %}
+				<div class="sidebar"></div>
+			{% endif %}
+		</main>
+
+		<footer class="footer">
+			{{ page.footer }}
+		</footer>
+	</body>
+</html></body></html>

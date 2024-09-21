@@ -1,0 +1,6 @@
+name: React list
+description: A simple module to test react
+type: module
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node

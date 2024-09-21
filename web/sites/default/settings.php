@@ -890,7 +890,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
+$databases['default']['default'] = array(
   'database' => 'drupal10',
   'username' => 'drupal10',
   'password' => 'drupal10',
@@ -902,4 +902,7 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_mc8i3u14BdoD9C4ZZS68WfLy95odP19LnEt0xBmfV_ySQfExpGLMlgA1XBnwchIeeiAFRPXaew/sync';
+//$settings['config_sync_directory'] = 'sites/default/files/config_mc8i3u14BdoD9C4ZZS68WfLy95odP19LnEt0xBmfV_ySQfExpGLMlgA1XBnwchIeeiAFRPXaew/sync';
+
+$settings['config_sync_directory'] = './config/global';
+$settings['config_exclude_modules'] = ['devel', 'webprofiler'];

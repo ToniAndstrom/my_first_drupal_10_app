@@ -1,0 +1,22 @@
+uuid: 433f35e1-4cb3-4930-8cb0-662dd5bb542f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: icecream_theme_powered
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'My handy-dandy footer'
+  label_display: visible
+  provider: system
+visibility: {  }

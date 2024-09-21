@@ -1,0 +1,22 @@
+uuid: 1d09a20d-06c0-4ac4-a700-a20f3c331f63
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tonys_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: tonys_theme_powered
+theme: tonys_theme
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'My handy-dandy footer'
+  label_display: visible
+  provider: system
+visibility: {  }

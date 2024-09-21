@@ -1,0 +1,22 @@
+uuid: 9f480147-9cf1-49a1-8e37-0dbc6862c162
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tonis_theme
+_core:
+  default_config_hash: s70XdZoJ_p7c5HMD8qwb4ZBdBUrqsMPFEq_WQx2j0IQ
+id: tonis_theme_breadcrumbs
+theme: tonis_theme
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

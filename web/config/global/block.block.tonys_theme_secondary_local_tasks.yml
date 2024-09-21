@@ -1,0 +1,22 @@
+uuid: 44ad9b30-f830-49b4-a8e4-af9e6f5673d2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tonys_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: tonys_theme_secondary_local_tasks
+theme: tonys_theme
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

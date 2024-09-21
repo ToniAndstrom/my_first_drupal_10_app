@@ -1,0 +1,22 @@
+uuid: 98a4d2c4-b9d9-41c9-841a-1a537e1edf69
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - react_hello
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: react_hello_help
+theme: react_hello
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
