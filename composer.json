@@ -23,7 +23,11 @@
         "drupal/dxpr_builder": "^2.6",
         "drupal/entity_browser": "^2.11",
         "drupal/field_group": "^4.0@alpha",
+        "drupal/gin": "^3.0@rc",
+        "drupal/gin_login": "^2.1",
+        "drupal/gin_toolbar": "^1.0@rc",
         "drupal/inline_entity_form": "^3.0@RC",
+        "drupal/restui": "^1.22",
         "drupal/vani": "^11.0",
         "drupal/webprofiler": "^10.1",
         "drush/drush": "^12.5"

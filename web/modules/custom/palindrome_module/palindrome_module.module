@@ -33,8 +33,7 @@ function palindrome_module_help($route_name, RouteMatchInterface $route_match)
 {
     switch ($route_name) {
         case "help.page.palindrome_module":
-            $output = "";
-            $output = "<p>" . t("How to use:") . "</p>";
+        $output =
             $output = "<p>" . t("Write your word in the input field and submit. The machine will now tell you if your word is a palindrome or not") . "</p>";
             return $output;
 

@@ -35,8 +35,8 @@ function first_module_help($route_name, RouteMatchInterface $route_match)
     switch ($route_name) {
         case "help.page.first_module":
             $output = "";
-            $output = "<h3>" . t("About") . "</h3>";
-            $output = "<p>" . t("This is a first custom module help") . "</p>";
+            $output .= "<h3>" . t("About") . "</h3>";
+            $output .= "<p>" . t("This is a first custom module help") . "</p>";
             return $output;
 
         default:
